@@ -1,0 +1,179 @@
+.bg-image {
+    position: absolute;
+    background: #333 url("image.png");
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#image {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    background: #333;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+#image .content-wrap {
+    padding: 0 1.5em;
+}
+
+.content-wrap {
+    grid-column: 2/4;
+}
+
+.content-wrap h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 1em 0;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.15em;
+    margin-block-end: 0.15em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+    border-radius: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#section-1 {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+#section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+h2 {
+    margin: 0;
+    padding: 1em 0;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#section-1 .content-text {
+    columns: 2;
+    column-gap: 2em;
+}
+
+#section-1 .content-text p {
+    padding-top: 0;
+}
+
+#section-2 {
+    padding: 2em 1em 1em;
+}
+
+#section-2 ul {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2/4;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#section-2 li {
+    width: 31%;
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+.card-content h3 {
+    padding: 1em 0;
+    margin: 0;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.card-content p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.flex {
+    display: flex;
+}
+
+#section-3 {
+    padding: 2em 1em 1em;
+    background: white;
+    color: black;
+}
+
+#section-4 .left {
+    background-color: #2690d4;
+    padding: 35.2px;
+}
+
+#section-4 .right {
+    padding: 35.2px;
+}
+
+footer {
+    background: black;
+    padding: 17.6px;
+}
+
+footer a {
+    text-decoration: none;
+}
